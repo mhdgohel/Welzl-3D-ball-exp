@@ -63,4 +63,4 @@ By default, Welzl's algorithm applies `std::shuffle` to guarantee $O(N)$ process
 
 ### 2. Boundary Node Reliance 
 The suite tracks topological geometry across **Uniform Cubes, Spheres, Elongated Ellipsoids, and Clustered Gaussian Meshes.**
-Interestingly, symmetrical bounds frequently optimally map minimum spheres using exactly **2 or 3** equatorial boundary nodes. However, structurally chaotic or non-uniform data topologies (like Ellipsoids or disjointed meshes) almost mathematically force reliance on a fully anchoring **4-point** volumetric boundary constraint.
+Interestingly, symmetrical bounds frequently optimally map minimum spheres using exactly **2 or 3** equatorial boundary nodes. However, structurally chaotic or non-uniform data topologies almost mathematically force reliance on a fully anchoring **4-point** volumetric boundary constraint.
