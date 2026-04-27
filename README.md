@@ -6,7 +6,7 @@ This implementation focuses on escaping standard recursion limitations to secure
 
 ---
 
-## 🚀 Features
+## Features
 * **Linear Time Complexity $O(N)$:** Uniformly shuffles input coordinates, eliminating the adversarial edge cases to predictably clear 1,000,000 points in mere fractions of a second.
 * **Stack-Safe Iterative Design:** Unlike classic recursive formulations of Welzl's that suffer from aggressive Stack Overflow exceptions at heavy point counts, this build relies on explicit dimension-bound iterative nesting.
 * **Geometrically Robust Math:** Leverages strict spatial vector calculations (cross-products, scalar-triple determinant approximations) accompanied by dynamic fallback evaluations when handling infinitesimally coplanar or collinear point matrices.
@@ -14,7 +14,7 @@ This implementation focuses on escaping standard recursion limitations to secure
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 ```text
 .
 ├── src/                    # Core C++ Application
@@ -29,7 +29,7 @@ This implementation focuses on escaping standard recursion limitations to secure
 
 ---
 
-## 🛠 Usage & Compilation
+## Usage & Compilation
 
 You can automate the entire lifecycle (Virtual Environment creation, C++ Compilation, Experiment Data Generation, and Matplotlib visualizations) via the master script:
 
@@ -54,7 +54,7 @@ g++ -O3 -std=c++17 src/main.cpp src/welzl.cpp -o welzl_cli
 
 ---
 
-## 📊 Benchmark Suite Insights
+## Benchmark Suite Insights
 
 Running the `./run.py` benchmarking suite generates rigorous analytics evaluating the algorithm against multiple topological variables:
 
